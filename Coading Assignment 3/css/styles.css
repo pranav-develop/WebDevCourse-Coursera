@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin:0;
+	padding: 0;
+	left: 0;
+	top: 0;
+	font-size: 16px;
+	font-family: 'Balsamiq Sans', cursive;
+}
+hr{
+	color:#3B3B3B;
+}
+.main_head{
+	padding-top: 30px;
+	font-size: 3em;
+}
+.navbar{
+	background: #111111;
+	border-bottom: 2px solid blue;
+}
+.navbar-brand{
+	text-decoration: none;
+	font-size: 1.6em;
+	color: #E1E1E1;
+	
+}
+.navbar-nav a{
+	font-size: 1.5em;
+}
+.navbar-brand:hover, .navbar-brand:active{
+	text-decoration: none;
+	color: #E1E1E1;
+}
+.content_box{
+	padding: 15px 25px;
+}
+#main_container .content_box .box_content{
+	text-align: justify;
+	padding: 10px;
+}
+
+@media (max-width: 575px){
+	#main_container .content_box .box_content{
+		font-size: 20px;
+	}
+	#main_container .content_box{
+	padding: 15px 3px;
+	}
+	.main_head{
+		font-size: 2.5em;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+	#main_container .content_box .box_content{
+	font-size: 20px;
+	}
+	#main_container .content_box{
+	padding: 15px 10px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	#main_container .content_box{
+	padding: 15px 5px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+	#main_container .content_box{
+	padding: 15px 10px;
+	}
+}
