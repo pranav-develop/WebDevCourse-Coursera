@@ -35,11 +35,17 @@ hr{
 	color: #E1E1E1;
 }
 .content_box{
-	padding: 15px 25px;
+	padding: 15px 15px;
 }
 #main_container .content_box .box_content{
 	text-align: justify;
 	padding: 10px;
+}
+.bottom-line{
+	height: 2px;
+	width: 70%;
+	background: #000;
+	margin: 5px auto;
 }
 
 @media (max-width: 575px){
